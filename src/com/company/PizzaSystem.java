@@ -58,7 +58,7 @@ public class PizzaSystem {
                     if (currentUser==null || currentLocation=="" || currentUser.getPlace()==null){
                         System.out.println("Необходимо войти в систему и ввести текущее место курьера"); break;
                     }
-                    map.genShortWay(currentLocation,currentUser.getPlace());
+                    System.out.println(map.genShortWay(currentLocation,currentUser.getPlace()).toString());
             }
 
         }
