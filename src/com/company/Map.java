@@ -91,7 +91,7 @@ public class Map {
         res.add(place1);
         for (int i=0; i<sp.size();i++)
             res.add(pot.get((Integer)sp.get(i)));
-        System.out.println(res.toString());
+        System.out.println("Время: "+D[pot.indexOf(place2)]);
         return res;
     }
     public String show(){
